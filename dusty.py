@@ -60,9 +60,9 @@ def main():
 		if clean_pos(current_point, dirt_patches) == True:
 			dirt_cleaned += 1
 
-	print "Dusty ended the job at", current_point
-	print "Dusty cleaned", dirt_cleaned, "patches"
-	print "There are still dirt patches at", dirt_patches
+	print current_point
+	print dirt_cleaned
+
 
 
 if __name__ == '__main__':
